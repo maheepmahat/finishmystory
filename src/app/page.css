@@ -1,0 +1,49 @@
+#heading_title{
+    font-family: cursive;
+    font-size: 4.5rem;
+}
+#heading_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Centers horizontally */
+    text-align: center; /* Centers text inside the div */
+    width: 100%; /* Optional: Adjust width to fit content */
+    height: 100%;
+    background: linear-gradient(to right, #007074, #F38C79); /* Gradient background */
+}
+
+.center_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto; /* Centers horizontally, but it's no longer strictly needed */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.button_class {
+    padding: 12px 24px; /* Size of the button */
+    background-color: #3b82f6; /* Blue background */
+    color: white; /* White text */
+    font-weight: 600; /* Bold text */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .button_class:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .button_class:focus {
+    outline: none; /* Removes outline */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Blue ring on focus */
+  }
+  
